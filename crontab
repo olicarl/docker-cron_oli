@@ -1,3 +1,3 @@
-* * * * * curl http://sample-nodejs:8080 >/proc/1/fd/1 2>/proc/1/fd/2
+* * * * * curl -X POST "https://octopus-app-cjrns.ondigitalocean.app/package_1/cp_scrapping_function?blocking=false" -H "Content-Type: application/json" -H "Authorization: 7THfTrCcAUjHc6I8iwo6XyFI"
 
 # An empty line is required at the end of this file for a valid cron file.
